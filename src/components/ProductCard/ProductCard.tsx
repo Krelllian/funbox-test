@@ -43,7 +43,7 @@ const ProductCard = ({ card }: IProductCardProps) => {
                     </p>
                     {card.presentMouses > 4 ? <p className="card__large-buy-text">Заказчик доволен</p> : ''}
                     <div className='card__weight'>{card.weightInKilograms}<span>КГ</span></div>
-                    <img className='card__img' src={card.image}></img>
+                    <img className='card__img' src={card.image} alt="Hello Kitty"></img>
                 </div>
             </div>
             {card.inStock ? (isSelected ?
