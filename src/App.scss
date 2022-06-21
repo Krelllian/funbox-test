@@ -1,0 +1,45 @@
+:root {
+  --main-font-family: "Trebuchet MS";
+  --main-font-family-bold: "Trebuchet MS bold";
+  --seconde-font-family: "Exo 2.0 thin";
+
+  --main-font-size: 16px
+}
+
+@font-face {
+  font-family: "Trebuchet MS";
+  src: url("./fonts/trebuchet/TrebuchetMS.ttf");
+}
+
+@font-face {
+  font-family: "Trebuchet MS bold";
+  src: url("./fonts/trebuchet/TrebuchetMS-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Exo 2.0 thin";
+  src: url("./fonts/exo2/exo-2-0_thin.otf");
+}
+
+.App {
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background: repeat center url("./images/backgrounds/main_bg_1.png");
+}
+
+body {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0 auto;
+}
